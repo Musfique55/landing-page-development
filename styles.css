@@ -1,12 +1,10 @@
  *{
     margin: 0;
     padding: 0;
+    font-family: 'Merriweather', serif;
  }
- header{
-    padding: 50px 140px;
-} 
-
 .banner{
+    width: 1320px;
     height: 600px;
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('resources/Banner\ Image.png');
@@ -17,6 +15,8 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin: 50px auto;
+
 }
 .banner h4{
     color: #FFF;
@@ -139,7 +139,8 @@
 }
 .new-offer{
     display: flex;
-    padding: 0 110px;
+    width: 1300px;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
     gap: 40px;
@@ -209,7 +210,7 @@
     /* padding:0 140px;  */
 }
 .showcase-contents{
-    padding-left: 93px;
+    padding-left: 20px;
     margin-top: 120px;
 }
 .showcase img{
@@ -269,7 +270,7 @@
 footer{
     display: flex;
     flex-direction: column;
-    padding: 140px;
+    padding: 120px 20px;
     background-color: #070211;
 }
 .address{
@@ -286,6 +287,8 @@ footer{
 }
 .social-links{
     text-align: center;
+    /* cursor: pointer; */
+
 }
 .social-links img{
     margin-right: 24px;
@@ -294,6 +297,7 @@ footer{
 hr{
     margin-top: 20px;
     margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.15);
 }
 small{
     display: flex;
@@ -305,4 +309,8 @@ small p{
     font-weight: 500;
     line-height: 40px; 
     margin-bottom: 5px;
+}
+i{
+    padding-right: 8px;
+    font-size: 24px;
 }
