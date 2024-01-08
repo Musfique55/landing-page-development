@@ -190,6 +190,7 @@
     color: #F00;
     font-size: 72px;
     font-weight: 900;
+    margin-bottom: 28px;
 }
 .holiday-sales h2 span{
     color: #070211;
@@ -307,6 +308,8 @@
     border: none;
     border-bottom-left-radius: 33px;
     border-top-left-radius: 33px;
+    font-size: 18px;
+    font-weight: 400;
 }
 .submit{
     padding: 24px 56px;
