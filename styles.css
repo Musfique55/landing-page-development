@@ -4,7 +4,7 @@
     font-family: 'Merriweather', serif;
  }
 .banner{
-    width: 1320px;
+    max-width: 1320px;
     height: 600px;
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('resources/Banner\ Image.png');
@@ -62,7 +62,7 @@
 }
 .greetings{
     display: flex;
-    width: 1320px;
+    max-width: 1320px;
     height: 600px;
     background: linear-gradient(80deg,rgba(7, 2, 17, 1), rgba(7, 2, 17, 0)100%),url('resources/Vectorrr.png');
     margin: 0 auto;
@@ -105,7 +105,7 @@
     cursor: pointer;
 }
 .location{
-    width: 1320px;
+    max-width: 1320px;
     height: 482px;
     margin: 120px auto;
     background: linear-gradient(180deg,rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
@@ -139,7 +139,7 @@
 }
 .new-offer{
     display: flex;
-    width: 1300px;
+    max-width: 1300px;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
@@ -275,7 +275,7 @@
     margin: 120px auto 120px auto;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
-    width: 1320px;
+    max-width: 1320px;
     height: 616px;
     
 }
@@ -365,4 +365,118 @@ small p{
 i{
     padding-right: 8px;
     font-size: 24px;
+}
+
+@media screen and (max-width: 600px){
+    .banner{
+        margin: 0px auto 50px auto;
+        padding: 0px 30px;
+    }
+    .banner h3{
+        font-size: 4rem;
+    }
+    .greetings{
+        height: auto;
+        flex-direction: column;
+        align-items: baseline;
+        padding: 30px;
+    }
+    .greet-contents{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .greet-contents h3{
+        line-height: normal;
+        letter-spacing: normal;
+        font-size: 3rem;
+    }
+    .new-year-off img{
+        width: 100%;
+    }
+    .new-year-off h3{
+        font-size: 5rem;
+    }
+    .new-year-off>p{
+        font-size: 1.2rem;
+    }
+    .new-year-off h4{
+        font-size: 2.5rem;
+    }
+    .location h4 {
+        font-size: 1.2rem;
+    }
+    .new-offer{
+        flex-direction: column;
+        padding: 30px;
+    }
+    .best-offer,.picture,.year{
+        width: 100%;
+    }
+    .picture img{
+       width: 100%;
+       padding: 0px;
+    }
+    .year,.best-offer{
+        text-align: center;
+    }
+    .holiday-sales{
+        padding: 30px;
+    }
+    .holiday-sales p{
+        width: auto;
+    }
+    .discount{
+        flex-direction: column;
+    }
+    .off {
+        /* position: absolute; */
+        right: 100px;
+        top: -34px;
+    }
+    .bar {
+        width: 100%;
+    }
+    .box{
+        display: none;
+    }
+    .gallery{
+        padding: 30px;
+    }
+    .showcase-contents{
+        padding: 0;
+    }
+    .showcase img {
+        width: 100%;
+        height: auto;
+    }
+    .subscribe{
+        height: auto;
+        padding: 50px 30px;
+    }
+    .subscribe h3{
+        font-size: 2rem;
+    }
+    .newsletter {
+        width: 100%;
+        flex-direction: column;
+    }
+    .newsletter input[type="text"]{
+        width: auto;
+        border-top-right-radius: 33px;
+    border-bottom-right-radius: 33px;
+    margin-bottom: 20px;
+    }
+    .submit{
+        border-top-left-radius: 33px;
+    border-bottom-left-radius: 33px;
+    }
+    .address{
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    small{
+        flex-direction: column;
+        text-align: center;
+    }
 }
